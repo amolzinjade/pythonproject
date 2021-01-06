@@ -3,7 +3,7 @@ import json
 
 def hello(event, context):
     body = {
-        "message": "Python Serverless v1.0! Your function executed successfully!",
+        "message": "Your function executed successfully!",
         "input": event
     }
 
@@ -18,7 +18,7 @@ def hello(event, context):
     # integration
     """
     return {
-        "message": "Python Serverless v1.0! Your function executed successfully!",
+        "message": "Your function executed successfully!",
         "event": event
     }
     """
